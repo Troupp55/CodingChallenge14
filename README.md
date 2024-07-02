@@ -1,1 +1,1 @@
-# CodingChallenge14
+This project is a Simple Financial Calculator that performs basic financial calculations such as interest rates, loan payments, and investment returns. It is built using ES6 modules. The user interface is designed to be simple and intuitive, allowing users to input necessary parameters and calculate the desired financial metrics. This project serves as a demonstration of modern JavaScript features and practical application of financial formulas.

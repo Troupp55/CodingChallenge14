@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Financial Calculator</title>
+</head>
+<body>
+    <h1>Simple Financial Calculator</h1>
+    
+    <section id="interest-rate">
+        <h2>Interest Rate Calculation</h2>
+        <input type="number" id="principal" placeholder="Principal">
+        <input type="number" id="rate" placeholder="Rate">
+        <input type="number" id="time" placeholder="Time">
+        <button onclick="calculateInterest()">Calculate Interest</button>
+        <p id="interest-result"></p>
+    </section>
+    
+    <section id="loan-payment">
+        <h2>Loan Payment Calculation</h2>
+        <input type="number" id="loan-principal" placeholder="Principal">
+        <input type="number" id="loan-rate" placeholder="Rate">
+        <input type="number" id="loan-n" placeholder="Number of payments">
+        <button onclick="calculateLoanPayment()">Calculate Loan Payment</button>
+        <p id="loan-result"></p>
+    </section>
+    
+    <section id="investment-return">
+        <h2>Investment Return Calculation</h2>
+        <input type="number" id="invest-principal" placeholder="Principal">
+        <input type="number" id="invest-rate" placeholder="Rate">
+        <input type="number" id="invest-n" placeholder="Compounding periods per year">
+        <input type="number" id="invest-t" placeholder="Time in years">
+        <button onclick="calculateInvestmentReturn()">Calculate Investment Return</button>
+        <p id="investment-result"></p>
+    </section>
+    
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

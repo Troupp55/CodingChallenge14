@@ -1,5 +1,6 @@
 //
 
+
 import { calculateInterest } from './modules/interestRate.js';
 import { calculateLoanPayment } from './modules/loanPayment.js';
 import { calculateInvestmentReturn } from './modules/investmentReturn.js';
@@ -46,3 +47,4 @@ window.calculateInvestmentReturn = function() {
     const futureValue = calculateInvestmentReturn(principal, rate, n, t);
     document.getElementById('investment-result').innerText = `Future Value: ${futureValue}`;
 }
+
